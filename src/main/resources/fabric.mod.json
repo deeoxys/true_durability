@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "truedurability",
+  "version": "${version}",
+
+  "name": "True Durability",
+  "description": "Shows the true durability of endcrystal.me unbreakables.",
+  "authors": [
+    "r333mo"
+  ],
+  "contact": {
+    "sources": "https://github.com/r333mo/TrueDurability"
+  },
+
+  "icon": "assets/trueDurability/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.r333mo.TrueDurability.TrueDurability"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
